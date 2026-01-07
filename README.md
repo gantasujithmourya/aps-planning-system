@@ -1,14 +1,24 @@
-Aps-planning-system:
-Manufacturing planning backend simulating Infor APS behavior
-This project is a demo backend application simulating the behavior of an Advanced Planning & Scheduling (APS) system used in manufacturing ERP platforms such as Infor APS.
-It demonstrates how production orders are planned based on demand, supply availability and system capacity using a microservice-based backend architecture.
-Technologies Used:Java,Spring Boot,REST APIs,Multithreading,Maven,Git.
-Key Features:
-Executes manufacturing planning cycles using backend services
-Demonstrates asynchronous execution using Java multithreading
-Simulates APS demand & supply planning behavior
-Clean layered architecture for maintainability
-Learning Outcomes:
-Designing scalable backend microservices
-Implementing async processing using Java
-Structuring ERP-like planning modules
+# APS Planning System
+
+Demo backend project simulating manufacturing planning logic similar to APS / ERP workflows.
+
+## 🚀 Overview
+This project demonstrates a backend service that executes manufacturing planning cycles 
+using Java and Spring Boot. It is a simplified simulation of how an APS system works, 
+including REST endpoints and service logic.
+
+## 💻 Technologies
+- Java 11
+- Spring Boot
+- REST APIs
+- Multithreading
+- Maven
+- GitHub
+
+## ⚙️ Key Features
+- REST API to trigger planning execution
+- Simulated planning business logic
+- Asynchronous execution using multithreading
+- Clean project structure
+
+## 📁 Project Structure
