@@ -1,8 +1,12 @@
+package com.aps;
+
+import org.springframework.stereotype.Service;
+
 @Service
 public class PlanningService {
 
-    @Async
-    public void runPlanning() {
-        System.out.println("Running APS planning logic...");
+    public String runPlanningCycle() {
+        System.out.println("Running planning logic...");
+        return "Planning completed";
     }
 }
